@@ -1,5 +1,12 @@
-import pytest 
-from src.merito_library.area_calc import circle_area, rectangle_area, triangle_area, square_area, trapezoid_area, rhombus_area
+import pytest
+from src.merito_library.area_calc import (
+    circle_area,
+    rectangle_area,
+    triangle_area,
+    square_area,
+    trapezoid_area,
+    rhombus_area)
+
 
 def test_circle_area():
     assert circle_area(1) == pytest.approx(3.14159, rel=1e-5)
@@ -10,8 +17,9 @@ def test_circle_area():
         circle_area("a")
     assert circle_area(2.5) == pytest.approx(19.63495, rel=1e-5)
 
+
 def test_rectangle_area():
-    assert rectangle_area(10,10) == 100
+    assert rectangle_area(10, 10) == 100
     assert rectangle_area(0, 5) == 0
     assert rectangle_area(5, 0) == 0
     assert rectangle_area(5, 5) == 25
@@ -24,6 +32,7 @@ def test_rectangle_area():
     with pytest.raises(TypeError):
         rectangle_area(5, "b")
     assert rectangle_area(2.5, 4) == 10
+
 
 def test_triangle_area():
     assert triangle_area(10, 5) == 25
@@ -40,6 +49,7 @@ def test_triangle_area():
         triangle_area(5, "b")
     assert triangle_area(2.5, 4) == 5
 
+
 def test_square_area():
     assert square_area(10) == 100
     assert square_area(0) == 0
@@ -48,6 +58,7 @@ def test_square_area():
     with pytest.raises(TypeError):
         square_area("a")
     assert square_area(2.5) == 6.25
+
 
 def test_trapezoid_area():
     assert trapezoid_area(10, 5, 5) == 37.5
@@ -66,6 +77,7 @@ def test_trapezoid_area():
     with pytest.raises(TypeError):
         trapezoid_area(5, 5, "c")
     assert trapezoid_area(2.5, 4, 3) == 9.75
+
 
 def test_rhombus_area():
     assert rhombus_area(10, 5) == 25
