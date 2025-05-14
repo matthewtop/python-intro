@@ -1,5 +1,4 @@
 # python-intro
-# Repository for University Coursework
 
 To repozytorium zawiera zestaw zadań przygotowanych w ramach realizacji przedmiotu na uczelni
 
