@@ -7,8 +7,8 @@ To repozytorium zawiera zestaw zadań przygotowanych w ramach realizacji przedmi
 - `zadanie_1/` - Podstawowe operacje na liczbach i zapoznanie ze składnią oraz poszczególnymi modułami języka python.
 - `zadanie_2/` - Wprowadzenie do testów jednostkowych na prostych funkcjach oraz testowanie pokrycia kodu testami i tworzenie raportu
 - `zadanie_3/` - Stworzenie własnej biblioteki, pokrycie testami i spełnienie norm PEP8.
-- `zadanie_4/` -
-- `zadanie_5/` - 
+- `zadanie_4/` - Wprowadzenie do biblioteki pymcdm i praktyczne jej wykorzystanie
+- `zadanie_5/` - Poszukiwanie bibliotek o określonej funkcjonalności, w przypadku tego repozytorium biblioteki związane z dziedziną cyberbezpieczeństwa.
 
 ## Wymagania
 
