@@ -30,8 +30,8 @@ python3 whois_example.py
 
 ## whois
 ### Linki
-dokumentacja: https://pypi.org/project/python-whois/
-repozytorium: https://github.com/joepie91/python-whois
+- [Dokumentacja](https://pypi.org/project/python-whois/)  
+- [Repozytorium GitHub](https://github.com/joepie91/python-whois)
 
 ### Przeznaczenie i główne funkcje
 Biblioteka `whois` służy do pobierania informacji WHOIS o domenach internetowych. Umożliwia łatwe zapytania o dane rejestracyjne domen, takie jak przykładowo:
@@ -54,8 +54,8 @@ Biblioteka `whois` służy do pobierania informacji WHOIS o domenach internetowy
 
 ## requests
 ### Linki
-dokumentacja: https://requests.readthedocs.io/en/latest/
-repozytorium: https://github.com/psf/requests
+- [Dokumentacja](https://requests.readthedocs.io/en/latest/)
+- [Repozytorium](https://github.com/psf/requests)
 
 ### Przeznaczenie i główne funkcje
 `requests` to popularna biblioteka do wykonywania zapytań HTTP w Pythonie. Umożliwia łatwe wysyłanie żądań GET, POST, PUT, DELETE i innych, obsługę nagłówków, ciasteczek, sesji, uwierzytelniania i więcej.
